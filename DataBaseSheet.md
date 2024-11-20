@@ -171,8 +171,8 @@
 ### Relationships
 - **Rhombus + Lines linking between two entities**
   - We can have more than one relationship between two entities.
-- **Recursive Relationship**(Unary Relationship): participates more than once in a relationship type with different roles.
 #### Types of Relationships
+- **Recursive Relationship**(Unary Relationship): Participates more than once in a relationship type with different roles.
 - **One-to-One Relationship:** When a single element of an entity is associated with a single element of another entity.
   - **Example:** "is-a" or "has-a" or "set".
 - **One-to-Many Relationship:** When a single element of an entity is associated with more than one element of another entity.
