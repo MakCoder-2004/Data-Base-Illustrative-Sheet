@@ -596,6 +596,8 @@ FROM DISK = 'location path';
     ```
 
   - **Group by**
+    - Take The Items that is selected in the SELECT Statement.
+    - It is mostly used with the JOIN.
     ```sql
     SELECT DepartmentID, TotalCount = COUNT(MonthlySalary), 
            TotalSum = SUM(MonthlySalary),
