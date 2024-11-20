@@ -596,7 +596,6 @@ FROM DISK = 'location path';
     ```
 
   - **Group by**
-    - Take The Items that is selected in the SELECT Statement.
     - It is mostly used with the JOIN.
     ```sql
     SELECT DepartmentID, TotalCount = COUNT(MonthlySalary), 
@@ -605,7 +604,7 @@ FROM DISK = 'location path';
            MinSalary = MIN(MonthlySalary),
            MaxSalary = MAX(MonthlySalary) 
     FROM Employees
-    GROUP BY DepartmentID
+    GROUP BY DepartmentID	-- Take The Items that are selected in the SELECT Statement.
     ORDER BY DepartmentID;
     ```
 
