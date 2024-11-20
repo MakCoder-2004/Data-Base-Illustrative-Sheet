@@ -163,7 +163,7 @@
 ### Entity
 - **Rectangle shape**
   - **Strong Entity:** Has a Primary Key, represented by a single rectangle.
-  - **Weak Entity:** Doesn't have a Primary Key, represented by a double rectangle.
+  - **Weak Entity:** It doesn't have a primary key, which is represented by a double rectangle.
   - **Associative Entity:** Models a many-to-many relationship between two other entities.
   - **Aggregation Entity:** Represents the relation between two entities treated as a single entity.
   
@@ -171,7 +171,7 @@
 ### Relationships
 - **Rhombus + Lines linking between two entities**
   - We can have more than one relationship between two entities.
-
+- **Recursive Relationship**(Unary Relationship): participates more than once in a relationship type with different roles.
 #### Types of Relationships
 - **One-to-One Relationship:** When a single element of an entity is associated with a single element of another entity.
   - **Example:** "is-a" or "has-a" or "set".
