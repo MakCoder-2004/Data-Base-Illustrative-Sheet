@@ -512,7 +512,7 @@ FROM DISK = 'location path';
 
 ---------------------------------------------------------------------------------
 
-# DML (Data Manipulation Language)**
+# DML (Data Manipulation Language)
 
 
 - **Insert:**
